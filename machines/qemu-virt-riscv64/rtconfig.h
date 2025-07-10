@@ -183,6 +183,7 @@
 #define RT_USING_DFS_DEVFS
 #define RT_USING_DFS_ROMFS
 #define RT_USING_DFS_PTYFS
+#define RT_USING_DFS_PROCFS
 #define RT_USING_PAGECACHE
 
 /* page cache config */
@@ -256,6 +257,7 @@
 #define RT_USING_POSIX_DELAY
 #define RT_USING_POSIX_CLOCK
 #define RT_USING_POSIX_TIMER
+#define RT_USING_MODULE
 
 /* Interprocess Communication (IPC) */
 
@@ -457,6 +459,9 @@
 /* Micrium: Micrium software products porting for RT-Thread */
 
 /* end of Micrium: Micrium software products porting for RT-Thread */
+#define PKG_USING_LWEXT4
+#define RT_USING_DFS_LWEXT4
+#define PKG_USING_LWEXT4_V200
 /* end of system packages */
 
 /* peripheral libraries and drivers */
