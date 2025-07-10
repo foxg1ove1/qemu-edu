@@ -10,10 +10,11 @@
 #include <rtthread.h>
 #include <rthw.h>
 #include <string.h>
+#include "rust.h" // 包含 Rust 头文件
 
 int main(void)
 {
+    rust_main();
     rt_kprintf("Hello RISC-V\n");
-
     return 0;
 }
