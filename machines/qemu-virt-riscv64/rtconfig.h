@@ -183,7 +183,6 @@
 #define RT_USING_DFS_DEVFS
 #define RT_USING_DFS_ROMFS
 #define RT_USING_DFS_PTYFS
-#define RT_USING_DFS_PROCFS
 #define RT_USING_PAGECACHE
 
 /* page cache config */
@@ -461,7 +460,7 @@
 /* end of Micrium: Micrium software products porting for RT-Thread */
 #define PKG_USING_LWEXT4
 #define RT_USING_DFS_LWEXT4
-#define PKG_USING_LWEXT4_V200
+#define PKG_USING_LWEXT4_LATEST_VERSION
 /* end of system packages */
 
 /* peripheral libraries and drivers */

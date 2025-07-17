@@ -59,12 +59,6 @@ SECTIONS
         __vsymtab_end = .;
         . = ALIGN(8);
 
-        /* section information for modules */
-        . = ALIGN(8);	
-        __rtmsymtab_start = .;
-        KEEP(*(RTMSymTab))
-        __rtmsymtab_end = .;
-
         /* section information for initial. */
         . = ALIGN(8);
         __rt_init_start = .;
@@ -76,6 +70,12 @@ SECTIONS
         KEEP(*(UtestTcTab))
         __rt_utest_tc_tab_end = .;
 
+        /* section information for modules */
+        . = ALIGN(8);	
+        __rtmsymtab_start = .;
+        KEEP(*(RTMSymTab))
+        __rtmsymtab_end = .;
+        
         . = ALIGN(8);
         _etext = .;
     } > SRAM
