@@ -4,7 +4,7 @@ cwd     = GetCurrentDir()
 src = Glob('*.c') + Glob('*.cpp')
 CPPPATH = [cwd]
 
-# LIBS = ["librusthello.a"]
+# LIBS = ["librtt_rs2.a"]
 # LIBPATH = [GetCurrentDir()]
 
 # group = DefineGroup('Applications', src, depend = [''], CPPPATH = CPPPATH, LIBS = LIBS, LIBPATH = LIBPATH)
